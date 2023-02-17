@@ -11,7 +11,7 @@
   -webkit-tap-highlight-color: inherit;
   -webkit-backface-visibility: inherit;
   backface-visibility: inherit;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 * {
@@ -233,10 +233,9 @@ body {
 .theme {
   position: fixed;
   z-index: 10;
-  left: calc(var(--pad) - 0.15em);
-  bottom: var(--pad);
+  left: var(--pad);
+  bottom: calc(var(--pad) - 20px);
   transform-origin: left bottom;
-  transform: rotate(-90deg);
   white-space: nowrap;
   mix-blend-mode: difference;
   display: flex;

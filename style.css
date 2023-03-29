@@ -34,16 +34,6 @@ canvas {
   display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: inherit;
-  font-size: inherit;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -90,7 +80,6 @@ body {
   background-color: var(--c-bg);
   font-family: "Neue Montreal";
   font-weight: 600;
-  font-size: 14px;
   font-feature-settings: "palt";
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -269,7 +258,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
 }
 
 .content_inner {

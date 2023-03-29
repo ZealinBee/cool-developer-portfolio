@@ -6,57 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/projects.css" />
   </head>
   <body>
-    <nav>
-      <a href="./index.html"><h1>Roma Zinkevich</h1></a>
-      <a href="./index.html"><button>Back to main</button></a>
-    </nav>
+    <div id="Page">
+      <div id="Background"><canvas></canvas></div>
 
-    <main>
-      <h1>Projects</h1>
+      <main class="content" id="Content" data-scroll="area">
+        <nav>
+          <h1>Roma Zinkevich</h1>
+        </nav>
 
-      <div class="projects project-1">
-        <h2>Monthly Allowance Calculator 🧮</h2>
-        <h3>Backend | Authentication&Authorization with JWT | Express.js</h3>
-        <p>
-          App that allows the user to track their monthly spending, has a login
-          and registration system for the users.
-        </p>
-        <div class="button-wrappers">
-          <a href="https://github.com/ZealinBee/spent-money-monthly-tracker"
-            ><button>View Code</button></a
-          >
-          <a
-            href="https://spent-money-monthly-tracker-production.up.railway.app/"
-            ><button>View Live Website</button></a
-          >
+        <div class="content_inner" data-scroll="target">
+          <h1>Projects</h1>
+
+          <div class="projects project-1">
+            <h2>Monthly Allowance Calculator 🧮</h2>
+            <h3>
+              Backend | Authentication&Authorization with JWT | Express.js
+            </h3>
+            <p>
+              App that allows the user to track their monthly spending, has a
+              login and registration system for the users.
+            </p>
+            <div class="button-wrappers">
+              <a href="https://github.com/ZealinBee/spent-money-monthly-tracker"
+                ><button>View Code</button></a
+              >
+              <a
+                href="https://spent-money-monthly-tracker-production.up.railway.app/"
+                ><button>View Live Website</button></a
+              >
+            </div>
+
+            <img src="./assets/project-1-sample.png" alt="" />
+          </div>
+
+          <div class="projects project-2">
+            <h2>Weather App ☁️</h2>
+            <h3>Frontend | REST API | Chart.js</h3>
+            <p>
+              Weather app that fetches data from Tampere University of Applied
+              Sciences weather station
+            </p>
+            <div class="button-wrappers">
+              <a href="https://github.com/RomaZinkevich/WebDev-FinalAssignment"
+                ><button>View Code</button></a
+              >
+              <a href="#"><button>View Live Website</button></a>
+            </div>
+            <img src="./assets/project-1-sample.png" alt="" />
+          </div>
         </div>
+      </main>
+    </div>
 
-        <img src="./assets/project-1-sample.png" alt="" />
-      </div>
-
-      <div class="projects project-2">
-        <h2>Weather App ☁️</h2>
-        <h3>Frontend | REST API | Chart.js</h3>
-        <p>
-          Weather app that fetches data from Tampere University of Applied
-          Sciences weather station
-        </p>
-        <div class="button-wrappers">
-          <a href="https://github.com/RomaZinkevich/WebDev-FinalAssignment"
-            ><button>View Code</button></a
-          >
-          <a href="#"><button>View Live Website</button></a>
-        </div>
-
-        <img src="./assets/project-1-sample.png" alt="" />
-      </div>
-    </main>
-
-    <footer>
-      <h3>© Roman Zinkevich <span>2023</span></h3>
-    </footer>
+    <script src="./main.js"></script>
   </body>
 </html>

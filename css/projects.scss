@@ -7,6 +7,33 @@ main {
   }
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  h1 {
+    color: white;
+    font-weight: 200;
+    margin: 0.5em 0 0 2em;
+    font-size: 30px;
+  }
+
+  button {
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    background: #fbb13c;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -25,13 +52,13 @@ main {
   }
   h3 {
     font-size: 1.1rem;
-    font-weight: 400;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
   }
   p {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
+    font-weight: 400;
   }
 
   button {
@@ -84,34 +111,6 @@ main {
 @media (max-width: 600px) {
   * {
     font-size: 0.95rem;
-  }
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-
-  h1 {
-    font-size: 2rem;
-    margin-top: 0.5rem;
-    margin-left: 1.5rem;
-    cursor: pointer;
-    color: black;
-  }
-
-  button {
-    margin-top: 0.5rem;
-    margin-right: 1.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    font-weight: 700;
-    background: #fbb13c;
-
-    &:hover {
-      transform: scale(1.05);
-    }
   }
 }
 

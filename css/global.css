@@ -7,6 +7,9 @@
 }
 
 button {
-  background: rgb(216, 216, 136);
   border: none;
+}
+
+a {
+  text-decoration: none;
 }
